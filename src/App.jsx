@@ -9,7 +9,7 @@ function App() {
   return (
     <>
         <Navigation />
-        {/*<div className="h-100"></div>*/}
+        <div className="h-100"></div>
         <NameDrawing />
         {/*<div className="h-100"></div>*/}
     </>
