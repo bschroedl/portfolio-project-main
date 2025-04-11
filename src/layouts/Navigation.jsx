@@ -1,4 +1,4 @@
-function Navigation() {
+function NavBar() {
     return (
         <>
             <nav className="fixed w-1/2 left-1/2 transform -translate-x-1/2
@@ -15,4 +15,4 @@ function Navigation() {
     );
 }
 
-export default Navigation;
+export default NavBar;
