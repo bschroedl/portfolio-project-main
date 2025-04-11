@@ -1,17 +1,20 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import Navigation from "./layouts/Navigation.jsx";
-import NameDrawing from "./components/NameDrawing.js";
+import NameDrawingDiv from "./components/NameDrawingDiv.jsx";
+import NavBar from "./layouts/Navigation.jsx";
+import SplashScreen from "./components/NameAnimation.jsx";
 
 function App() {
 
   return (
     <>
-        <Navigation />
-        <div className="h-100"></div>
-        <NameDrawing />
+        <SplashScreen />
+        {/*<NameDrawingDiv />*/}
+        {/* particle network? */}
+        {/*<NavBar />*/}
         {/*<div className="h-100"></div>*/}
+        {/*<div className="h-100"></div>*/}
+        {/*  Bottom of the page Contact  */}
+
     </>
   )
 }
