@@ -8,7 +8,7 @@ export default function SplashScreen() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowSplash(false);
-        }, 2800); // time before it fades out
+        }, 2000); // time before it fades out
 
         return () => clearTimeout(timer);
     }, []);
@@ -20,7 +20,7 @@ export default function SplashScreen() {
                     className="fixed inset-0 flex items-center justify-center bg-white z-50"
                     initial={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ duration: .5 }}
+                    transition={{ duration: .2 }}
                 >
                     <NameDrawing />
                 </motion.div>
