@@ -2,8 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
+/* Im not sure what this does. Leaving it in for future testing*/
+/*@theme {*/
+/*    --animate-test-123: wiggle 1s ease-in-out infinite;*/
+/*    @keyframes wiggle {*/
+/*        0%,*/
+/*        100% {*/
+/*            transform: rotate(-3deg);*/
+/*        }*/
+/*        50% {*/
+/*            transform: rotate(3deg);*/
+/*        }*/
+/*    }*/
+/*}*/
+
 * {
     margin: 0;
     padding: 0;
-    /*border: 1px solid red;*/
+    font-family: 'Inter';
 }
