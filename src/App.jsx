@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 import NavBar from "./layouts/Navigation.jsx";
 import SplashScreen from "./components/NameAnimation.jsx";
-import Search from "./components/Search.jsx";
 import Projects from "./components/Projects.jsx";
+import Main from "./components/Main.jsx";
 
 function App() {
 
@@ -13,12 +13,11 @@ function App() {
     ]
 
   return (
-    <div className="border-1 border-blue-500">
+    <div className="border border-blue-500 relative">
         <SplashScreen />
         <NavBar />
-        <Search />
+        <Main />
         <div>
-            <h1>Projects</h1>
             {projectList.map((project, index) => (
                 <Projects key={project.id}
                           title={project.title}
@@ -26,7 +25,7 @@ function App() {
                           reverse={index % 2 === 1}/>
             ))}
         </div>
-        <div className="border-1 border-orange-500">Bottom</div>
+        <div className="border border-orange-500">Bottom</div>
           {/*Bottom of the page Contact  */}
     </div>
   )
