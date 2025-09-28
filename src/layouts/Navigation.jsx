@@ -12,7 +12,7 @@ Ideas
 
 function NavBar() {
     return (
-        <nav className='fixed top-[10px] left-[10px]'>
+        <nav className='sticky top-2.5 left-2.5 w-fit'>
             <ul className='flex flex-row gap-3'>
                 {/* Must be at minimum 21px tall via linked in requirements */}
                 <a href='https://github.com/bschroedl' target='blank'>
