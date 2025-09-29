@@ -18,25 +18,33 @@ function ProjectList() {
     const projects = [
         {
             title: 'Event System',
-            description: 'In this project I created to replicate a ticked system for an event. There are 4 tables in the database for Venue, Events, Attendants, and Tickets.',
+            description: 'In this project I created to replicate a ticked system for an event. ' +
+                'There are 4 tables in the database for Venue, Events, Attendants, and Tickets.',
+            languages: 'Java, MySQL, Spring Boot, JDBC, Postman',
             imageLink: 'https://placehold.co/600x400?text=Code+Only',
             gitHubLink: 'https://github.com/bschroedl/EventSystem',
         },
         {
             title: 'Communication Connections',
-            description: 'In this project I lead a team of 4 in developing a replica of New York Times Connection game. The requirements were to create a game for learning communication concepts.',
+            description: 'In this project I lead a team of 4 in developing a replica of New York Times Connection game. ' +
+                'The requirements were to create a game for learning communication concepts.',
+            languages: 'HTML, CSS, JavaScript, jQuery',
             imageLink: ConnectionsImage,
             gitHubLink: 'https://github.com/bschroedl/Connections_V2',
         },
         {
             title: 'NFL Player Guessing Game',
-            description: 'Created a game where you can either guess a players team or a players name from a team with number and position.',
+            description: 'Created a game where you can either guess a players team or a players name from a team with number and position.' +
+                '',
+            languages: 'HTML, CSS, JavaScript',
             imageLink: PlayerGuessGame,
             gitHubLink: 'https://github.com/bschroedl/NFL-Player-Guessing-Game',
         },
         {
             title: 'English Capstone Project',
-            description: 'Creating a password generator that uses humidity as a seed for randomness.',
+            description: 'Creating a password generator that uses humidity as a seed for randomness.' +
+                '',
+            languages: 'Python',
             imageLink: 'https://placehold.co/600x400?text=Code+Only',
             gitHubLink: 'https://github.com/bschroedl/Capstone-Project',
         },
@@ -50,6 +58,7 @@ function ProjectList() {
                     description={project.description}
                     imageLink={project.imageLink}
                     gitHubLink={project.gitHubLink}
+                    languages={project.languages}
                     reverse={index % 2 === 1}
                 />
             ))}
