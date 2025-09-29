@@ -1,16 +1,19 @@
 // import { useState } from 'react'
-// import Navigation from "./layouts/Navigation.jsx";
-import NameDrawing from "./components/NameDrawing.js";
+import NavBar from "./layouts/Navigation.jsx";
+import SplashScreen from "./components/NameAnimation.jsx";
+import Main from "./components/Main.jsx";
+import ProjectList from "./layouts/ProjectList.jsx";
+
+
 
 function App() {
-
   return (
-    <>
-        {/*<Navigation />*/}
-        {/*<div className="h-100"></div>*/}
-        <NameDrawing />
-        {/*<div className="h-100"></div>*/}
-    </>
+    <div className="relative bg-[#F5F5F5]">
+        <SplashScreen />
+        <NavBar />
+        <Main />
+        <ProjectList />
+    </div>
   )
 }
 
