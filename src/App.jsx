@@ -5,10 +5,9 @@ import Main from "./components/Main.jsx";
 import ProjectList from "./layouts/ProjectList.jsx";
 
 
-
 function App() {
   return (
-    <div className="relative bg-[#F5F5F5]">
+    <div className="relative">
         <SplashScreen />
         <NavBar />
         <Main />
