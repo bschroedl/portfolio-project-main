@@ -15,6 +15,9 @@ function ProjectList() {
     //     {id: 3, title: 'Three', description: 'Triplets', imageLink: 'https://placehold.co/600x400?text=Code+Only'},
     // ]
 
+    // TODO Fix text and make it good
+    // TODO add python neural network project
+
     const projects = [
         {
             title: 'Event System',
@@ -54,6 +57,7 @@ function ProjectList() {
         <div>
             {projects.map((project, index) => (
                 <Projects
+                    key={project.title}
                     title={project.title}
                     description={project.description}
                     imageLink={project.imageLink}
