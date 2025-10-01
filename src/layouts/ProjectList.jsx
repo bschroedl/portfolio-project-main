@@ -9,8 +9,8 @@ function ProjectList() {
     const projects = [
         {
             title: 'Mathematics of a Neural Network',
-            description: 'Created a feedforward neural network in python with no external libraries. ' +
-                'Built activation, forward propagation, and backward propagation functions to manually update weights across epochs reducing mean squared error. ' +
+            description: 'Created a feedforward neural network in Python without external libraries. ' +
+                'Built activation, forward propagation, and backward propagation functions to manually update weights across epochs, reducing mean squared error. ' +
                 '',
             languages: 'Jupyter Notebook',
             imageLink: NeuralNetwork,
@@ -19,8 +19,8 @@ function ProjectList() {
         },
         {
             title: 'Event System',
-            description: 'In this project I created to replicate a ticked system for an event. ' +
-                'There are 4 tables in the database for Venue, Events, Attendants, and Tickets. ' +
+            description: 'In this project, I created a replica database for an event ticketing system. ' +
+                'There are four tables in the database for Venue, Events, Attendants, and Tickets. ' +
                 '',
             languages: 'Java, MySQL, Spring Boot, JDBC, Postman',
             imageLink: 'https://placehold.co/600x400?text=Code+Only',
@@ -29,7 +29,7 @@ function ProjectList() {
         },
         {
             title: 'Communication Connections',
-            description: 'In this project I lead a team of 4 in developing a replica of New York Times Connection game. ' +
+            description: 'In this project, I led a team of four in developing a replica of The New York Times Connection game. ' +
                 'The requirements were to create a game for learning communication concepts. ' +
                 '',
             languages: 'HTML, CSS, JavaScript, jQuery',
@@ -39,8 +39,8 @@ function ProjectList() {
         },
         {
             title: 'NFL Player Guessing Game',
-            description: 'Developed a game where you can guess a NFL players team from their name and number, or guess a NFL players name from their team and number. ' +
-                'To get NFL player and team information I used an API from RapidAPI. ' +
+            description: 'Developed a game where you can guess an NFL player\'s team from their name and number, or guess an NFL player\'s name from their team and number. ' +
+                'To get NFL player and team information, I used an API from RapidAPI. ' +
                 '',
             languages: 'HTML, CSS, JavaScript',
             imageLink: PlayerGuessGame,
@@ -49,7 +49,7 @@ function ProjectList() {
         },
         {
             title: 'English Capstone Project',
-            description: 'Created a password generator that uses humidity as a seed for randomness. ' +
+            description: 'Created a password generator that uses humidity data as a seed for randomness. ' +
                 'While this seed could be found, I tried to get some random data that was naturally generated. ' +
                 '',
             languages: 'Python',

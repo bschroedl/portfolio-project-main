@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import NavBar from "./layouts/Navigation.jsx";
 import SplashScreen from "./components/NameAnimation.jsx";
 import Main from "./components/Main.jsx";
