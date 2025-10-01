@@ -30,7 +30,7 @@ function NameDrawing() {
             initial="hidden"
             animate="visible"
             style={image}
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-auto"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full"
             // variants={containerAnimation.moveUp}
         >
             <motion.g style={{
