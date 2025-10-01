@@ -6,7 +6,6 @@ import LinkedInLogo from '../assets/LI-Logo.png'
 
 /*
 Ideas
-TODO Fix button clicking on mobile
 - Add animation to image changing so not as hard to go from right to left
 - Add a button to go to the top or back button
  */
